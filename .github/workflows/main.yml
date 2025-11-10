@@ -26,8 +26,8 @@ jobs:
 
       - name: Set game configuration
         env:
-          APP_NAME: My Twine game
-          DESCRIPTION: My Twine game description
+          APP_NAME: 等生地狱
+          DESCRIPTION: 由话者制作组开发的开放世界冒险游戏后面忘了
 
           # This must be of the format "N.N.N", where the N's are all numbers
           VERSION: 1.0.0
