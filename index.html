@@ -3771,7 +3771,7 @@ setup.checkPersonality = function(a, e, r, d) {
   &lt;div class=&quot;warning-content&quot;&gt;
     &lt;div class=&quot;title-section&quot;&gt;
       &lt;h1 class=&quot;game-title&quot;&gt;Purgatory&lt;/h1&gt;
-      &lt;div class=&quot;game-version&quot;&gt;Alpha v0.3.6&lt;/div&gt;
+      &lt;div class=&quot;game-version&quot;&gt;Alpha v0.4.2&lt;/div&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;disclaimer-section&quot;&gt;
@@ -7561,7 +7561,7 @@ _item (需要: &lt;&lt;for _mat, _num range _materials&gt;&gt; &lt;&lt;= _mat + 
 &lt;&lt;/linkreplace&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="76" name="更新日志" tags="" position="0,200" size="100,100">&lt;div class=&quot;epilepsy-warning&quot;&gt;&lt;div class=&quot;warning-content&quot;&gt;&lt;h1&gt;更新日志&lt;/h1&gt;[[(1)回到主页|免责声明]]
 
-&lt;h3&gt;版本：Alpha v0.4.1&lt;/h3&gt;更新日期：2025年11月18日
+&lt;h3&gt;版本：Alpha v0.4.2&lt;/h3&gt;更新日期：2025年11月18日
 优化内容：
 • 优化了移动键。
 • 优化了探索时的检定机制。
@@ -10702,7 +10702,7 @@ setTimeout(updateLoading, 1000);
 
 /* 显示地图：星号固定在中间 */
 &lt;&lt;set _emojiMap to {
-    &quot;沥青路&quot;: &quot;⬛&quot;, &quot;砖石路&quot;: &quot;🧱&quot;, &quot;土路&quot;: &quot;🟫&quot;, &quot;泥泞的沼泽地&quot;: &quot;🌀&quot;, 
+    &quot;沥青路&quot;: &quot;◽&quot;, &quot;砖石路&quot;: &quot;🧱&quot;, &quot;土路&quot;: &quot;🟫&quot;, &quot;泥泞的沼泽地&quot;: &quot;🌀&quot;, 
     &quot;小巷&quot;: &quot;🏘️&quot;, &quot;广场&quot;: &quot;💠&quot;, &quot;草地&quot;: &quot;🟩&quot;, &quot;红叶林地&quot;: &quot;🍁&quot;, 
     &quot;林地&quot;: &quot;🌳&quot;, &quot;房屋&quot;: &quot;🏠&quot;, &quot;别墅&quot;: &quot;🏡&quot;, &quot;废墟&quot;: &quot;🏚️&quot;, 
     &quot;商业区&quot;: &quot;🏬&quot;, &quot;写字楼&quot;: &quot;🏢&quot;, &quot;学校&quot;: &quot;🏫&quot;,
@@ -10752,7 +10752,7 @@ setTimeout(updateLoading, 1000);
                             &lt;&lt;= _emojiMap[$areaData[_x + &quot;_&quot; + _y]]&gt;&gt;
                         &lt;/span&gt;
                     &lt;&lt;else&gt;&gt;
-                        &lt;span class=&quot;map-cell unexplored&quot;&gt;◙&lt;/span&gt;
+                        &lt;span class=&quot;map-cell unexplored&quot;&gt;⬛&lt;/span&gt;
                     &lt;&lt;/if&gt;&gt;
                 &lt;&lt;/for&gt;&gt;
             &lt;/div&gt;
@@ -13709,7 +13709,7 @@ if (conflicts.length &gt; 0) {
 
 /* 一次性显示所有emoji地图 */
 &lt;&lt;set _emojiMap to {
-    &quot;沥青路&quot;: &quot;⬛&quot;, &quot;砖石路&quot;: &quot;🧱&quot;, &quot;土路&quot;: &quot;🟫&quot;, &quot;泥泞的沼泽地&quot;: &quot;🌀&quot;, 
+    &quot;沥青路&quot;: &quot;◽&quot;, &quot;砖石路&quot;: &quot;🧱&quot;, &quot;土路&quot;: &quot;🟫&quot;, &quot;泥泞的沼泽地&quot;: &quot;🌀&quot;, 
     &quot;小巷&quot;: &quot;🏘️&quot;, &quot;广场&quot;: &quot;💠&quot;, &quot;草地&quot;: &quot;🟩&quot;, &quot;红叶林地&quot;: &quot;🍁&quot;, 
     &quot;林地&quot;: &quot;🌳&quot;, &quot;房屋&quot;: &quot;🏠&quot;, &quot;别墅&quot;: &quot;🏡&quot;, &quot;废墟&quot;: &quot;🏚️&quot;, 
     &quot;商业区&quot;: &quot;🏬&quot;, &quot;写字楼&quot;: &quot;🏢&quot;, &quot;学校&quot;: &quot;🏫&quot;,
